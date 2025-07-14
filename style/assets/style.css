@@ -371,6 +371,7 @@ shows row design */
     margin-left: 15px;
     border-radius: 14px;
     padding-left: 15px;
+    border: none;
 
 
 }
@@ -385,7 +386,7 @@ shows row design */
     width: 100px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-   
+    border: none;
     color: rgb(1, 0, 0);
     font-weight: 700;
     

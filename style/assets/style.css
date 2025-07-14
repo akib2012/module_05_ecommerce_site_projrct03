@@ -1,0 +1,377 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* font type styling section */
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.poppins-font {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared style get here  */
+.conaiter-hw {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* heading styling part here */
+.head {}
+
+.header-part {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    gap: 120px;
+    align-items: center;
+
+}
+
+.head-input input {
+    width: 508px;
+    height: 48px;
+    border-radius: 66px;
+    padding-left: 20px;
+    -webkit-border-radius: 66px;
+    -moz-border-radius: 66px;
+    -ms-border-radius: 66px;
+    -o-border-radius: 66px;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.head-input input::placeholder {
+    font-family: "Poppins", sans-serif;
+    color: #CCCCCC;
+
+
+}
+
+.head-input {
+    position: relative;
+    border: none;
+
+}
+
+.head-input i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: larger;
+
+
+}
+
+.head-nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+
+}
+
+.head-nav li {
+    list-style: none;
+
+
+
+
+}
+
+.head-nav li a {
+    text-decoration: none;
+    color: #707070;
+}
+
+/* banner desing start here  */
+
+.banner {
+    margin: 60px 234px;
+    height: 445px;
+    /* padding: 68px 5px 68px 46px; */
+    /* padding-left: 45px;
+    padding-right: 46px; */
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    background-color: #FFF2F1;
+}
+
+.banner-img img {
+    width: 402px;
+    height: 378px;
+}
+
+.banner-details {
+    max-width: 560px;
+    max-height: 320px;
+
+}
+
+.banner-details-h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.banner-details-p {
+    color: #4E4E4E;
+    line-height: 26px;
+    padding: 10px 0px;
+}
+
+.banner-details-h2 {
+    font-size: 41px;
+    font-weight: 600;
+    color: #FF136F;
+
+}
+
+.banner-details-button {
+    height: 52px;
+    width: 168px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: linear-gradient(to right, #FF589B, #FF136F);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+
+}
+
+/* category design start here */
+
+.categry {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 26px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.title {
+    margin-top: -20px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.category-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 360px;
+    height: 120px;
+    /* background: linear-gradient(to right, #FF9C35, #FFD019); */
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.category-card:nth-child(1) {
+    background: linear-gradient(to right, #FF9C35, #FFD019);
+
+
+}
+
+.category-card:nth-child(2) {
+    background: linear-gradient(to right, #FF136F, #ff13e3);
+
+
+}
+
+.category-card:nth-child(3) {
+    background: linear-gradient(to right, #4289FF, #3F07F8);
+
+
+}
+
+
+.category-card h2 {
+    padding-left: 40px;
+    font-size: 36px;
+    font-weight: 600px;
+    color: white;
+}
+
+.category-card img {
+    width: 96px;
+    height: 96px;
+    padding-right: 30px;
+}
+
+/* main section style start here */
+
+main {
+    background-color: #F4F4F4;
+}
+
+/* 
+shows row design */
+.main-continer {
+    padding-bottom: 50px;
+}
+
+.shows-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 1px;
+}
+
+.shows-header h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.shows-header p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shows {
+    padding-bottom: 20px;
+}
+
+.shoows-conatiner {
+    display: flex;
+    justify-content: space-around;
+    gap: 6px;
+    align-content: center;
+}
+
+.showes-card h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.showes-card p {
+    line-height: 26px;
+    padding: 10px 0px;
+
+}
+
+.showes-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.showes-card {
+    width: 348px;
+    /*height: 500px;
+    */
+    background-color: white;
+    padding: 4px 26px;
+    border-radius: 12px;
+    12px
+    /*position: relative;
+    */
+    : ;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.showes-card img {
+    width: 336px;
+    height: 202px;
+}
+
+.primary-button {
+    height: 52px;
+    width: 168px;
+    color: white;
+    background-color: black;
+    /*position: absolute;
+    top: 440px;
+    left: 78px;
+    */
+    margin-left: 64px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* footer section style start here */
+.foot {
+    margin-top: 60px;
+
+}
+
+.foot-container {
+    width: 1212px;
+    height: 455px;
+    margin: 76px auto;
+    background-color: #FFF2F1;
+    position: relative;
+
+
+
+}
+
+.foot-container-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* ✅ This line centers it fully */
+    text-align: center;
+
+}
+
+.foot-container-inner h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1F1F1F;
+}
+
+.foot-container-inner p {
+    font-weight: 500;
+    color: #707070;
+    padding: 6px 0px;
+
+}
+
+.foot-container-button input {
+    width: 483px;
+    height: 53px;
+    margin-top: 20px;
+
+}
+
+.foot-container-button button {
+    height: 53px;
+    width: 100px;
+    position: relative;
+    right: 105px;
+
+}

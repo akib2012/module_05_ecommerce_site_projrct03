@@ -332,10 +332,12 @@ shows row design */
     height: 455px;
     margin: 76px auto;
     background-color: #FFF2F1;
+    border-radius: 10px;
     position: relative;
-
-
-
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .foot-container-inner {
@@ -361,17 +363,33 @@ shows row design */
 
 }
 
+
 .foot-container-button input {
     width: 483px;
     height: 53px;
     margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 14px;
+    padding-left: 15px;
 
+
+}
+.foot-container-button input::placeholder{
+    font-size: 20px;
+    color: #CCCCCC;
+    font-family: "Poppins", sans-serif;
 }
 
 .foot-container-button button {
     height: 53px;
     width: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+    color: rgb(1, 0, 0);
+    font-weight: 700;
+    
     position: relative;
-    right: 105px;
+    right: 100px;
 
 }
